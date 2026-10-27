@@ -1,0 +1,122 @@
+/* General Reset & Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f7f6;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Section */
+.header {
+    background-color: #1a365d;
+    color: #ffffff;
+    text-align: center;
+    padding: 2.5rem 1rem;
+}
+
+/* Profile Picture Styling */
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Makes the photo circular */
+    object-fit: cover;
+    border: 4px solid #ffffff;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.header h1 {
+    font-size: 2.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.header h3 {
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0.2rem 0;
+    color: #cbd5e0;
+}
+
+/* Container */
+.container {
+    max-width: 850px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+/* Cards for Sections */
+.card {
+    background: #ffffff;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+}
+
+.card h2 {
+    color: #2b6cb0;
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+}
+
+/* Lists Styling */
+ul {
+    list-style-type: square;
+    padding-left: 1.2rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+/* Education Items */
+.education-item {
+    margin-bottom: 1rem;
+}
+
+.education-item h3 {
+    color: #2d3748;
+    font-size: 1.1rem;
+}
+
+/* Referees Layout */
+.referees {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.referee {
+    flex: 1;
+    min-width: 220px;
+    background: #edf2f7;
+    padding: 1rem;
+    border-radius: 6px;
+}
+
+.referee h3 {
+    font-size: 1rem;
+    color: #1a365d;
+}
+
+.referee p {
+    font-size: 0.9rem;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #1a365d;
+    color: #ffffff;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+}
